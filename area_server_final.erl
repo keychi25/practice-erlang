@@ -25,4 +25,3 @@ loop() ->
             From ! {self(), {error, Other}},
             loop()
     end.
-    

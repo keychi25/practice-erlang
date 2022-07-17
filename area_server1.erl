@@ -20,4 +20,3 @@ loop() ->
             From ! {error, Other},
             loop()
     end.
-    
